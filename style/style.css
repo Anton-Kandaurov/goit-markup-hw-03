@@ -59,7 +59,6 @@ address{
 }
 
 .container{
-    width: 1170px;
     margin: 0 auto;
     margin-left: auto;
     margin-right: auto;
@@ -154,7 +153,6 @@ address{
 
 
 .hero-baner{
-    width: 1170px;
     height: 600px;
     left: 0px;
     top: 80px;
@@ -207,7 +205,6 @@ address{
 
 
 .list-con-div{
-   width: 1170px;
    height: 282px;
 }
 
@@ -241,9 +238,8 @@ address{
 .work{
     display: block;
     align-items: center;
-    width: 1170px;
     margin-right: auto;
-    margin-left:215px;
+    margin-left:auto;
     height: 460px;
 }
 
@@ -252,11 +248,9 @@ address{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1666;
-    text-align: center;
     letter-spacing: 0.03em;
-    margin-right: auto;
-    margin-left: auto;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .work-list{
@@ -264,12 +258,40 @@ address{
     list-style-type: none;
     color: var(--basic-title-color);
     display: flex;
-    align-items: center;
+    align-content: center;
     gap: 30px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
 /*------------team---------*/
+
+
+.team-con-ul{
+    display: flex;
+    gap: 30px;
+    margin-right:auto ;
+    margin-left:  auto;
+    margin-top: 50px;
+    padding-bottom: 94px;
+}
+
+
+.team-con{
+    width: 270px;
+    height: 368px;
+    background-color: var(--basic-title-color);
+    
+}
+
+.team-con-text{
+    gap: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
 
 .team{
     background-color: var(--backroun-color);
@@ -281,6 +303,8 @@ address{
     line-height: 1.1666;
     text-align: center;
     letter-spacing: 0.03em;
+    padding-top: 94px;
+    
 }
 
 .team-list{
@@ -288,10 +312,9 @@ address{
     list-style-type: none;
 }
 
-.team-list-li {
-    background-color: var(--basic-title-color);
-}
-
+/*.team-list-li {
+   
+}*/
 
 .taem-list-title {
     font-weight: 500;
@@ -299,6 +322,7 @@ address{
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 
 
@@ -317,6 +341,12 @@ address{
 }
 
 /*-----------------footer-------------*/
+
+.foot-con{
+    margin: 0 215px;
+    padding: 60px 0;
+}
+
 .footer{
     background-color: var(--hero-footer-color);
 }
@@ -351,6 +381,7 @@ address{
     line-height: 1.1428;
     letter-spacing: 0.02em;
     font-style: normal;
+    
 }
 
 .footer-nav-contact:focus,
@@ -366,6 +397,7 @@ address{
     line-height: 1.1923;
     letter-spacing: 0.03em;
     text-decoration: none;
+    margin-bottom: 20px;
 }
 
 .footer-logo:focus,
@@ -373,11 +405,23 @@ address{
     color: var(--accent-color);
 }
 
+.footer-adres{
+    margin-top: 20px;
+}
 
+.foot-con-li{
+    margin-bottom: 9px;
+}
 
 /*-----------------------------------*/
 /*----------partfolio.html-----------*/
 /*-----------------------------------*/
+
+
+.header-container-port{
+    border-bottom: 1px solid #ECECEC;
+}
+
 
 .title-none {
     display: none;
@@ -388,6 +432,24 @@ address{
     list-style-type: none;
 }
 
+.port-con-main{
+    padding: 94px 215px;
+}
+
+.port-con-btn{
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 8px;
+}
+
+.port-ul-text{
+    margin: auto;
+}
+
+/*--------------buttons-----------------*/
 .button-portfolio{
     
     color: var(--title-N3-text-color);
@@ -415,7 +477,7 @@ address{
 .portfolio{
     background-color: var(--basic-title-color);
 }
-
+/*-------------------------list-----------------*/
 .portfolio-list-li{
     background-color: #ffffff;
     /*border: 2px solid #ececec;*/
@@ -433,8 +495,5 @@ address{
     letter-spacing: 0.03em;
     color: var(--title-N2-text-color);
 }
-/*
-.line{
-    border-bottom: 2px solid #ececec;
-}
-*/
+
+
