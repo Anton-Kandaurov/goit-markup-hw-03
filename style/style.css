@@ -54,8 +54,7 @@ address{
 
 .header{
     color: var(--title-text-color);
-    padding-top: 24px;
-    padding-bottom: 25px;
+    
 }
 
 .container{
@@ -67,6 +66,7 @@ address{
     align-items: center;
     padding-left: 15px;
     padding-right: 15px;
+    width: 1170px;
 }
 
 
@@ -79,7 +79,7 @@ address{
    letter-spacing: 0.03em;
    text-decoration: none;
    color: var(--title-text-color);
-   margin-right: 92px;
+   margin-right: 93px;
 }
 
 .header-logo:focus,
@@ -110,6 +110,9 @@ address{
     text-decoration: none;
     list-style-type:none;
     color: var(--title-N3-text-color);
+    padding-top: 24px;
+    padding-bottom: 25px;
+    display: block;
 }
 
 .header-nav-li:hover,
@@ -147,27 +150,17 @@ address{
     background-color: var(--hero-footer-color);
     margin-left: auto;
     margin-right: auto;
-}
-
-
-.hero-baner{
-    height: 600px;
-    left: 0px;
-    top: 80px;
-    align-items:center;
+    padding: 200px;
 }
 
 .hero-h1{
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1,3636;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    padding-top:204px;
-    margin-bottom: 30px;
-
 }
 
 .button{
@@ -187,11 +180,15 @@ address{
     padding: 10px 32px;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 204px;
+    margin-top: 30px;
 }
 
 
 /*---------------LIST-----------*/
+
+
+
+
 
 .list-con{
     display: flex;
@@ -199,12 +196,9 @@ address{
     gap: 30px;
     margin-right: auto;
     margin-left: auto;
+    padding: 94px 0;
 }
 
-
-.list-con-div{
-   height: 282px;
-}
 
 .list {
    text-decoration: none;
@@ -529,7 +523,7 @@ address{
     
 }
 
-.port-thumb{
+.portfolio-list-li{
     width: 370px;
     height: 404px;
     border: 1px solid  #ECECEC;
@@ -538,5 +532,9 @@ address{
 
 .footer-port{
     background-color: var(--hero-footer-color);
+}
+
+.port-list-img{
+    display: block;
 }
    
