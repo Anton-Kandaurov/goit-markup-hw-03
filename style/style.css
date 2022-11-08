@@ -60,8 +60,6 @@ address{
 
 .container{
     margin: 0 auto;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .header-container{
@@ -271,8 +269,8 @@ address{
 .team-con-ul{
     display: flex;
     gap: 30px;
-    margin-right:auto ;
-    margin-left:  auto;
+    padding-right:auto ;
+    padding-left:  auto;
     margin-top: 50px;
     padding-bottom: 94px;
 }
@@ -430,6 +428,7 @@ address{
 .portfolio-list{
     text-decoration: none;
     list-style-type: none;
+
 }
 
 .port-con-main{
@@ -440,9 +439,12 @@ address{
     padding-bottom: 50px;
     display: flex;
     align-items: center;
-    margin-right: auto;
-    margin-left: auto;
+    padding-right: auto;
+    padding-left: auto;
     gap: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
 }
 
 .port-ul-text{
@@ -465,6 +467,12 @@ address{
     text-align: center;
     letter-spacing: 0.06em;
     border-radius: 5px;
+    margin-top: 94px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+
+
 }
 
 .button-portfolio:hover,
@@ -496,4 +504,34 @@ address{
     color: var(--title-N2-text-color);
 }
 
+.port-thumb{
 
+}
+
+
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+.portfolio-list > .port-thumb{
+    flex-basis: calc(100% / 3 - 30px);
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.port-list-text{
+    align-content: center;
+    padding: auto;
+    
+}
+
+.port-thumb{
+    width: 370px;
+    height: 404px;
+    border: 1px solid  #ECECEC;
+}
+   
