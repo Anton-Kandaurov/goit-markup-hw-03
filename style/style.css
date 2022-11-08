@@ -97,10 +97,6 @@ address{
     gap: 50px;
 }
 
-.header-navigation{
-    
-}
-
 .header-nav-li{
     font-weight: 500;
     font-size: 14px;
@@ -536,5 +532,9 @@ address{
 
 .port-list-img{
     display: block;
+}
+
+.header-container-port{
+    border-bottom: 1px solid #ECECEC;
 }
    
