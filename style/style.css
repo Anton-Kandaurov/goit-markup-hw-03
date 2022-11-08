@@ -59,7 +59,7 @@ address{
 }
 
 .container{
-    margin: 0 auto;
+    margin: 0 ;
 }
 
 .header-container{
@@ -239,6 +239,7 @@ address{
     margin-right: auto;
     margin-left:auto;
     height: 460px;
+    justify-content: center;
 }
 
 
@@ -260,7 +261,9 @@ address{
     gap: 30px;
     margin-right: auto;
     margin-left: auto;
+    justify-content: center;
 }
+
 
 
 /*------------team---------*/
@@ -308,6 +311,7 @@ address{
 .team-list{
     text-decoration: none;
     list-style-type: none;
+    justify-content: center;
 }
 
 /*.team-list-li {
@@ -418,6 +422,7 @@ address{
 
 .header-container-port{
     border-bottom: 1px solid #ECECEC;
+    padding-bottom: 25px;
 }
 
 
@@ -432,7 +437,7 @@ address{
 }
 
 .port-con-main{
-    padding: 94px 215px;
+    padding: 94px auto 50px auto;
 }
 
 .port-con-btn{
@@ -445,6 +450,7 @@ address{
     margin-left: auto;
     margin-right: auto;
     align-content: center;
+    justify-content: center;
 }
 
 .port-ul-text{
@@ -471,7 +477,7 @@ address{
     margin-bottom: 50px;
     margin-right: auto;
     margin-left: auto;
-
+    padding: 6px 22px;
 
 }
 
@@ -486,10 +492,6 @@ address{
     background-color: var(--basic-title-color);
 }
 /*-------------------------list-----------------*/
-.portfolio-list-li{
-    background-color: #ffffff;
-    /*border: 2px solid #ececec;*/
-}
 
 .portfolio-list-title{
     font-weight: 700;
@@ -504,24 +506,21 @@ address{
     color: var(--title-N2-text-color);
 }
 
-.port-thumb{
-
-}
-
 
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
-    
-    flex-basis: calc(100% / 3 - 30px);
-    margin-left: -30px;
-    margin-top: -30px;
+    width: 1170px;
+    justify-content: center;
+    gap: 30px;
+    margin-right: auto;
+    margin-left:auto ;
+    padding-bottom: 94px;
 }
 
 
-.portfolio-list > .portfolio-list-li{
-    margin-left: 30px;
-    margin-top: 30px;
+.portfolio-list > .port-thumb{
+    flex-basis:calc(100% / 3) ;
 }
 
 .port-list-text{
@@ -534,5 +533,10 @@ address{
     width: 370px;
     height: 404px;
     border: 1px solid  #ECECEC;
+}
+
+
+.footer-port{
+    background-color: var(--hero-footer-color);
 }
    
