@@ -265,8 +265,6 @@ address{
 .team-con-ul{
     display: flex;
     gap: 30px;
-    padding-right:auto ;
-    padding-left:  auto;
     margin-top: 50px;
 }
 
@@ -329,6 +327,11 @@ address{
 .work-text{
     text-align: center;
     color: var(--title-N2-text-color);
+}
+
+
+.team-img{
+    display: block;
 }
 
 /*-----------------footer-------------*/
@@ -411,7 +414,6 @@ address{
 
 .header-container-port{
     border-bottom: 1px solid #ECECEC;
-    padding-bottom: 25px;
 }
 
 
@@ -422,24 +424,11 @@ address{
 .portfolio-list{
     text-decoration: none;
     list-style-type: none;
-
-}
-
-.port-con-main{
-    padding: 94px auto 50px auto;
+    margin-bottom: 50px;
 }
 
 .port-con-btn{
-    padding-bottom: 50px;
-    display: flex;
-    align-items: center;
-    padding-right: auto;
-    padding-left: auto;
     gap: 8px;
-    margin-left: auto;
-    margin-right: auto;
-    align-content: center;
-    justify-content: center;
 }
 
 .port-ul-text{
@@ -462,8 +451,6 @@ address{
     text-align: center;
     letter-spacing: 0.06em;
     border-radius: 5px;
-    margin-top: 94px;
-    margin-bottom: 50px;
     margin-right: auto;
     margin-left: auto;
     padding: 6px 22px;
@@ -487,6 +474,7 @@ address{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-bottom: 4px;
 }
 
 .portfolio-list-p{
@@ -499,12 +487,8 @@ address{
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
-    width: 1170px;
     justify-content: center;
     gap: 30px;
-    margin-right: auto;
-    margin-left:auto ;
-    padding-bottom: 94px;
 }
 
 
@@ -513,9 +497,7 @@ address{
 }
 
 .port-list-text{
-    align-content: center;
-    padding: auto;
-    
+    padding: 20px 24px;
 }
 
 .portfolio-list-li{
