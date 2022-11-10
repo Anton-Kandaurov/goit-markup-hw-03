@@ -46,7 +46,11 @@ address{
 }
 
 .section-work{
-   padding-bottom: 74px;
+   padding-bottom: 94px;
+}
+
+img{
+    display: block;
 }
 
 
@@ -67,15 +71,16 @@ address{
 }
 
 .container{
-    margin: 0 ;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1170px;
 }
 
 .header-container{
     display: flex;
     align-items: center;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 1170px;
+   
 }
 
 
@@ -105,6 +110,8 @@ address{
     list-style-type: none;
     display: flex;
     gap: 50px;
+     padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .header-nav-li{
@@ -115,8 +122,6 @@ address{
     text-decoration: none;
     list-style-type:none;
     color: var(--title-N3-text-color);
-    padding-top: 24px;
-    padding-bottom: 25px;
     display: block;
 }
 
@@ -193,12 +198,14 @@ address{
 /*---------------LIST-----------*/
 
 
+.list-li{
+   
+}
+
+
 .list-con-div{
     display: flex;
-    align-items: center;
     gap: 30px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .list {
@@ -212,10 +219,20 @@ address{
     line-height: 1.1428;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .title-none {
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .list-title-p {
@@ -252,9 +269,6 @@ address{
     display: flex;
     align-content: center;
     gap: 30px;
-    margin-right: auto;
-    margin-left: auto;
-    justify-content: center;
 }
 
 
@@ -270,9 +284,7 @@ address{
 
 
 .team-con{
-    border-radius: 10px;
     width: 270px;
-    height: 368px;
     background-color: var(--basic-title-color);
     
 }
@@ -337,12 +349,13 @@ address{
 /*-----------------footer-------------*/
 
 .foot-con{
-    padding: 60px 0 60px 15px;
     width: 1170px;
+
 }
 
 .footer{
     background-color: var(--hero-footer-color);
+    padding: 60px 0px;
 }
 
 .footer-addres{
@@ -367,7 +380,7 @@ address{
 }
 
 .footer-nav-contact {
-    color: var(--title-N2-text-color);
+    color: #ACACB0;
     text-decoration: none;
     list-style-type: none;
     font-weight: 500;
@@ -424,11 +437,14 @@ address{
 .portfolio-list{
     text-decoration: none;
     list-style-type: none;
-    margin-bottom: 50px;
 }
 
 .port-con-btn{
     gap: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
 }
 
 .port-ul-text{
@@ -498,12 +514,17 @@ address{
 
 .port-list-text{
     padding: 20px 24px;
+    border-bottom:1px solid #ECECEC;
+    border-left: 1px solid #ECECEC;
+    border-right: 1px solid #ECECEC;
 }
 
 .portfolio-list-li{
-    width: 370px;
-    height: 404px;
-    border: 1px solid  #ECECEC;
+}
+
+.container-portfolio{
+    padding-left: 0;
+    padding-right: 0;
 }
 
 
